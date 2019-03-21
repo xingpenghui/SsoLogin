@@ -17,8 +17,8 @@ import springfox.documentation.spring.web.plugins.Docket;
 public class SwaggerConfig {
     public ApiInfo createApi(){
         return new ApiInfoBuilder().title("SelfCoding的登录系统").
-                description("为了更好的融入团队，并且模拟真实的企业开发环境").
-                contact(new Contact("千锋","http://1000phone.com","121212@163.com")).build();
+                description("单点登录实现").
+                contact(new Contact("Feri","http://1000phone.com","121212@163.com")).build();
     }
     @Bean  //等价于 <bean>标签
     public Docket createDoc(){
